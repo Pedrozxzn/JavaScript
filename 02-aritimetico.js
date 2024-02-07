@@ -19,7 +19,20 @@
 
 //regras para nomear identificadores (var, const ou let)
 //podem começar com A-Z, a-z _ ou $
-var MinhaVariavel = 10;
-var outravariavel = 20;
-const _minhavariavel = 3.1514;
-var $minhaVariavel = 11;
+// var MinhaVariavel = 10;
+// var outravariavel = 20;
+// const _minhavariavel = 3.1514;
+// var $minhaVariavel = 11;
+// var v1 = 10;
+// var v2 = 3;
+// console.log("------------------------------------");
+// console.log("Valores v1", v1, " | v2 =", v2);
+// console.log("------------------------------------");
+// console.log("Resto da divisão inteira: v1 % v2 =", v2);
+// console.log("Exponenciação: v1**v2 (v1 elevado à v2) =", v1 ** v2);
+var nome = Pedro
+var banco = caixa
+var agencia = 462581
+var conta = 6428461
+var saldo = 99984571
+console.log('Olá', nome, 'seja bem')
