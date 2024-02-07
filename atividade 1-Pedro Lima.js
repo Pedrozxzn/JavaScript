@@ -33,4 +33,6 @@ console.log(
 saldo ++
 console.log('você recebeu um pix no valor de 7904, seu saldo atual é de:', saldo + 7904);
 saldo ++
-console.log('você recebeu um pix no valor de 5764, seu saldo atual é de:', saldo + 5764 );
+console.log('você recebeu um pix no valor de 5764, seu saldo atual é de:', saldo + 5764);
+saldo ++
+console.log('seu saldo atual é de:', saldo);
