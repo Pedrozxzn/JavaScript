@@ -7,7 +7,7 @@ console.log(
   numero2 - numero
 );
 console.log(txt1, "tem:", numero2 - numero, "anos");
-console.log('----------------------------------------')
+console.log("----------------------------------------");
 var largura = 6;
 var comprimento = 12;
 var area = comprimento * largura;
@@ -22,17 +22,17 @@ console.log(
 var diametro = 5;
 var volume = diametro ** 3;
 console.log("o volume de diaetro 5 e:", volume);
-console.log('----------------------------------------')
+console.log("----------------------------------------");
 var a = 2;
 var b = 3;
 var c = -1;
 var delta = b ** 2 - 4 * a * c;
 console.log("o valor de delta é de:", delta);
-console.log('-----------------------------------------')
+console.log("-----------------------------------------");
 var preço = 450;
 var desc = 0.03;
 var desconto = preço * desc;
-var final = preço - desc;
+var final = preço - desconto;
 console.log(
   "Um cliente fez uma compra no valor de R$ 450,00 e obteve 3% de desconto. Qual o valor do desconto e o valor final da compra"
 );
