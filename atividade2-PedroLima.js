@@ -40,6 +40,6 @@ console.log("o desconto será de R$", desconto);
 console.log("o valor final de sua compra é de:", final);
 console.log("-----------------------------------------");
 var velocidade = 95;
-var tempo = 3.3;
+var tempo = 3.5;
 var distancia = velocidade / tempo;
 console.log("a distancia percorriada em quilometros é de:", distancia);
