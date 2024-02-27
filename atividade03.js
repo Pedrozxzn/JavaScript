@@ -32,5 +32,9 @@ console.table(numeroscopy);
 console.log(
   "-----------------------------------------------------------------"
 );
-numeroscopy = numeroscopy.map((x) => x * 2);
+numeroscopy[0] = numeros[0] * 2;
+numeroscopy[1] = numeros[1] * 2;
+numeroscopy[2] = numeros[2] * 2;
+numeroscopy[3] = numeros[3] * 2;
+numeroscopy[4] = numeros[4] * 2;
 console.table(numeroscopy);
