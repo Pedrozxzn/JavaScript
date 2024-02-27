@@ -9,7 +9,7 @@ console.log("Diagonal 2 é: ", matriz[2][0], matriz[1][1], matriz[0][2]);
 console.log("Diagonal 3 é: ", matriz[0][2], matriz[1][1], matriz[2][0]);
 console.log("Diagonal 4 é: ", matriz[2][2], matriz[1][1], matriz[0][1]);
 
-console.log("--------------------------------------------------------");
+console.log("-----------------------Atividade05----------------------------");
 
 var usuario = [
   "Benjamin",
