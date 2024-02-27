@@ -38,3 +38,28 @@ console.table(dinos);
 
 dinos.splice(1, 1); //remove o elemento a partir do indice 1, contando 1.
 console.table(dinos);
+
+console.log("");
+console.log("--------------Continuação Aula---------------");
+var aliens = [
+  "enormossauro",
+  "arraia-a-jato",
+  "cromatico",
+  "artropode",
+  "fogo fatuo",
+  "macaco-aranha",
+  "friagem",
+  "armato",
+];
+console.table(aliens);
+
+var elementoProcurado = "enormossauro";
+var posicao = aliens.indexOf(elementoProcurado);
+console.log("O", elementoProcurado, "esta no indice", posicao);
+//criando copia de array (vetor)
+var copia1 = aliens.slice();
+console.log("vetor cópia 1");
+console.table(copia1);
+var copia2 = aliens.slice(1,3)
+console.log('Vetor copia 2')
+console.table(copia2);
