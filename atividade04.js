@@ -14,7 +14,7 @@ console.log("-----------------------Atividade05----------------------------");
 var usuario = [
   "Benjamin",
   15,
-  " Azul",
+  "Azul",
   "Melancia",
   "Jardim Olipía 240",
   "Alfredo",
