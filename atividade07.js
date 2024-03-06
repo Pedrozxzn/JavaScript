@@ -53,4 +53,3 @@ jogar(jogadorX);
 jogar(jogadorO);
 
 console.table(tabuleiro);
-
