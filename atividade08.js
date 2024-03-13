@@ -97,6 +97,6 @@ function inverterPalavras(frase) {
   return palavrasInvertidas.join(" ");
 }
 
-const fraseOriginal = "Olá, mundo!";
+const fraseOriginal = "Eai blz, meu nome é Pedro";
 const fraseInvertida = inverterPalavras(fraseOriginal);
 console.log(fraseInvertida);
