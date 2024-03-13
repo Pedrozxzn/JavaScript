@@ -52,3 +52,51 @@ var preco3 = new Sorvete("Melancia", "M", "R$ 9,90");
 preco3.saborSorvete();
 preco1.alterarPreco(`R$ 10,51`);
 preco1.saborSorvete();
+
+console.log(
+  "=========================================================================="
+);
+console.log(
+  "                               Strings                                    "
+);
+console.log(
+  "=========================================================================="
+);
+function comp(texto1, texto2) {
+  if (texto1.toUpperCase() == texto2.toUpperCase()) {
+    console.log("As duas strings são iguais");
+  } else {
+    console.log("As duas strings são diferentes");
+  }
+}
+comp("Alfredo", "alfredo");
+console.log(
+  "========================================================================"
+);
+function extrairNumeros(str) {
+  const regex = /\d+/g;
+  return str.match(regex);
+}
+
+const string = "O preço do produt é R$ 50,99";
+const numeros = extrairNumeros(string);
+console.log(numeros);
+console.log(
+  "========================================================================"
+);
+
+function inverterPalavras(frase) {
+  const palavras = frase.split(" ");
+
+  const palavrasInvertidas = [];
+
+  for (let i = palavras.length - 1; i >= 0; i--) {
+    palavrasInvertidas.push(palavras[i]);
+  }
+
+  return palavrasInvertidas.join(" ");
+}
+
+const fraseOriginal = "Olá, mundo!";
+const fraseInvertida = inverterPalavras(fraseOriginal);
+console.log(fraseInvertida);
